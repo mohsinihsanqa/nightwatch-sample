@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="login"
+    errors="1" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="1" time="14.41" timestamp="">
+  
+    <testcase name="Login with valid credentials" classname="login" time="14.41" assertions="1">  <failure message="Timed out while waiting for element &lt;.btn--full[for=&#39;SignInModalTrigger&#39;]&gt; to be visible for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not visible&#34; (5148ms)">    at Object.Login with valid credentials (C:\Users\RT\Desktop\Scott\Nightwatch\tests\login.js:12:10)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;.btn--full[for=&#39;SignInModalTrigger&#39;]&gt; to be visible for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m [0;90m(5148ms)[0m" type="error"><![CDATA[
+        at Object.Login with valid credentials (C:\Users\RT\Desktop\Scott\Nightwatch\tests\login.js:12:10)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .moveToElement() command on &lt;.menu__link--icon .fa-user[title=&#39;Sign in&#39;]&gt;: 
+   {&#34;status&#34;:-1,&#34;value&#34;:null,&#34;code&#34;:&#34;&#34;,&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;An unknown error has occurred.&#34;,&#34;httpStatusCode&#34;:405}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
